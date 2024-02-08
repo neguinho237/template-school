@@ -116,3 +116,81 @@ main > img {
 .iconTextHero {
     margin-top: -20px;
 }
+
+section{
+    width: 100%;
+    height: 666px;
+    border: 1px solid black;
+
+}
+main>img{
+    width: 60%;
+}
+
+.heroArrow{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 140px;
+    width: 105px;
+    height: 97px;
+}
+
+.heroTitle{
+    color: #ED4D1B;
+}
+
+.heroTextContainer{
+    display: flex;
+}
+
+.iconTextHero{
+    margin-top: -20px;
+}
+
+section{
+    width: 100%;
+    height: 666%;
+    border: 1px solid black;
+}
+
+.card{
+    width: 272px;
+    height: 306px;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 32px;
+    padding-top: 27px;
+
+
+}
+
+.card > img{
+    display: block;
+    align-self: flex-end;
+    padding-top: 48px;
+
+}
+.cardContent{
+    display:flex ;
+    flex-direction:column ;
+    gap: 16px;
+}
+
+.cardContent>p{
+width: 207px;
+font-size: 16px;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.cardContent >h3{
+    font-size: 24px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardContent>img{
+  width: 48px;
+  height: 48px;
+}
